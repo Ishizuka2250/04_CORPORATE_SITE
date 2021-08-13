@@ -26,4 +26,14 @@
 }
 .service-content-title {
   font-size: 24px;
+  margin: 10px 0;
+}
+
+@media screen and (max-width:768px) {
+  .service-content {
+    flex-direction: column;
+  }
+  .service-content img {
+    width: 100%;
+  }
 }

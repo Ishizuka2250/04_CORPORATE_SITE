@@ -50,12 +50,14 @@
   margin-bottom: 20px;
 }
 .news-title {
-  margin: 0;
+  font-size: 28px;
+  color: #fff;
 }
 .news-button {
-  width: auto;
-  padding: 15px;
+  padding: 10px 15px;
   margin: 0;
+  color: #fff;
+  background: #cd0224;
 }
 .news-content-box {
   display: block;
@@ -91,6 +93,10 @@
   font-size: 14px;
   margin-top: 10px;
 }
+.blog-content-text {
+  display: inline-block;
+  margin-bottom: 10px;
+}
 
 .company-recruit {
   width: 100%;
@@ -110,4 +116,13 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width:768px) {
+  .blog-content {
+    width: 100%;
+  }
+  .service-content {
+    width: 100%;
+  }
 }

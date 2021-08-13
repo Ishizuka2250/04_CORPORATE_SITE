@@ -21,3 +21,9 @@
   margin-bottom: 20px;
   display: block;
 }
+
+@media screen and (max-width:768px) {
+  .blog-content {
+    width: 100%;
+  }
+}

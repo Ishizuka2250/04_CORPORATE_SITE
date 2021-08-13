@@ -12,15 +12,30 @@
 <body>
   <header class="header">
     <h1><a href="index.html" class="header-title">TECH</a></h1>
-    <ul class="header-navigation">
-      <li><a href="index.html">ホーム</a></li>
-      <li><a href="service.html">事業内容</a></li>
-      <li><a href="news.html">ニュース</a></li>
-      <li><a href="blog.html">社員ブログ</a></li>
-      <li><a href="company.html">会社概要</a></li>
-      <li><a href="recruit.html">採用情報</a></li>
-      <li><a href="contact.html">お問い合わせ</a></li>
-    </ul>
+    <nav class="header-navigation" id="header-navigation">
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="service.html">事業内容</a></li>
+        <li><a href="news.html">ニュース</a></li>
+        <li><a href="blog.html">社員ブログ</a></li>
+        <li><a href="company.html">会社概要</a></li>
+        <li><a href="recruit.html">採用情報</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <div class="humberger-menu" id="bg-menu">
+      <span class="humberger-menu-top"></span>
+      <span class="humberger-menu-middle"></span>
+      <span class="humberger-menu-bottom"></span>
+    </div>
+    <script>
+      const bgButton = document.getElementById('bg-menu');
+      bgButton.addEventListener('click', () => {
+        bgButton.classList.toggle('open');
+        const headerNav = document.getElementById('header-navigation');
+        headerNav.classList.toggle('in');
+      });
+    </script>
   </header>
   <div class="header-margin"></div>
   <section>
@@ -65,15 +80,17 @@
   </section>
   <footer class="footer">
     <small class="footer-copyright">&copy; 2020 TECH inc.</small>
-    <ul class="footer-navigation">
-      <li><a href="index.html">ホーム</a></li>
-      <li><a href="service.html">事業内容</a></li>
-      <li><a href="news.html">ニュース</a></li>
-      <li><a href="blog.html">社員ブログ</a></li>
-      <li><a href="company.html">会社概要</a></li>
-      <li><a href="recruit.html">採用情報</a></li>
-      <li><a href="contact.html">お問い合わせ</a></li>
-    </ul>
+    <nav class="footer-navigation">
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="service.html">事業内容</a></li>
+        <li><a href="news.html">ニュース</a></li>
+        <li><a href="blog.html">社員ブログ</a></li>
+        <li><a href="company.html">会社概要</a></li>
+        <li><a href="recruit.html">採用情報</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
   </footer>
 </body>
 </html>
