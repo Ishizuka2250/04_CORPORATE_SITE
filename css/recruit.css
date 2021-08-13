@@ -1,0 +1,31 @@
+.recruit-info:not(:last-child) {
+  width: 100%;
+  margin-bottom: 80px;
+}
+.recruit-title {
+  font-size: 28px;
+  padding: 10px;
+  border-bottom: 1px solid #000;
+}
+.recruit-message {
+  margin: 25px 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+tr {
+  width: 100%;
+}
+tr th {
+  width: 30%;
+  background: #f5f6f9;
+  border: 1px solid #000;
+  padding: 20px 0;
+}
+tr td {
+  width: 70%;
+  border: 1px solid #000;
+  padding: 20px 10px;
+}

@@ -1,0 +1,14 @@
+.news-content {
+  display: block;
+  padding: 20px;
+  border: 1px solid #000;
+}
+.news-content:not(:last-child) {
+  margin-bottom: 10px;
+}
+.news-content-date {
+  margin-right: 10px;
+}
+.news-content p {
+  display: inline;
+} 
